@@ -1,0 +1,3 @@
+D:/College/stash/C-C++ Builds/CMakeFiles/Main.dir
+D:/College/stash/C-C++ Builds/CMakeFiles/edit_cache.dir
+D:/College/stash/C-C++ Builds/CMakeFiles/rebuild_cache.dir

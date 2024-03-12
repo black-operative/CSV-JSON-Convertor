@@ -1,0 +1,3 @@
+C:/Stuff/GitRep/CSV-JSON-Convertor/build/CMakeFiles/Main.dir
+C:/Stuff/GitRep/CSV-JSON-Convertor/build/CMakeFiles/edit_cache.dir
+C:/Stuff/GitRep/CSV-JSON-Convertor/build/CMakeFiles/rebuild_cache.dir

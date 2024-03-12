@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Stuff/GitRep/CSV-JSON-Convertor/build",
+  "command": "g++   -g -std=gnu++1z -o CMakeFiles\\Main.dir\\Source-Files\\CSV_JSON.cpp.obj -c C:\\Stuff\\GitRep\\CSV-JSON-Convertor\\Source-Files\\CSV_JSON.cpp",
+  "file": "C:/Stuff/GitRep/CSV-JSON-Convertor/Source-Files/CSV_JSON.cpp",
+  "output": "CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj"
+},
+{
+  "directory": "C:/Stuff/GitRep/CSV-JSON-Convertor/build",
+  "command": "g++   -g -std=gnu++1z -o CMakeFiles\\Main.dir\\Source-Files\\main.cpp.obj -c C:\\Stuff\\GitRep\\CSV-JSON-Convertor\\Source-Files\\main.cpp",
+  "file": "C:/Stuff/GitRep/CSV-JSON-Convertor/Source-Files/main.cpp",
+  "output": "CMakeFiles/Main.dir/Source-Files/main.cpp.obj"
+}
+]
