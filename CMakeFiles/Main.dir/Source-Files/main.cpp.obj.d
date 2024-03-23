@@ -1,6 +1,6 @@
 CMakeFiles/Main.dir/Source-Files/main.cpp.obj: \
- D:\College\stash\C-C++\ Builds\Source-Files\main.cpp \
- d:\college\stash\c-c++\ builds\header-files\header.h \
+ C:\Stuff\GitRep\CSV-JSON-Convertor\Source-Files\main.cpp \
+ c:\stuff\gitrep\csv-json-convertor\header-files\header.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -114,4 +114,4 @@ CMakeFiles/Main.dir/Source-Files/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
- d:\college\stash\c-c++\ builds\header-files\csv_json.h
+ c:\stuff\gitrep\csv-json-convertor\header-files\csv_json.h

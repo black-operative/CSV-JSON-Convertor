@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/College/stash/C-C++ Builds/Source-Files/CSV_JSON.cpp" "CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj" "gcc" "CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj.d"
-  "D:/College/stash/C-C++ Builds/Source-Files/main.cpp" "CMakeFiles/Main.dir/Source-Files/main.cpp.obj" "gcc" "CMakeFiles/Main.dir/Source-Files/main.cpp.obj.d"
+  "C:/Stuff/GitRep/CSV-JSON-Convertor/Source-Files/CSV_JSON.cpp" "CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj" "gcc" "CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj.d"
+  "C:/Stuff/GitRep/CSV-JSON-Convertor/Source-Files/main.cpp" "CMakeFiles/Main.dir/Source-Files/main.cpp.obj" "gcc" "CMakeFiles/Main.dir/Source-Files/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

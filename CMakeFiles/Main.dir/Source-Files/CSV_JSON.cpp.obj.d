@@ -1,7 +1,7 @@
 CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj: \
- D:\College\stash\C-C++\ Builds\Source-Files\CSV_JSON.cpp \
- d:\college\stash\c-c++\ builds\header-files\csv_json.h \
- d:\college\stash\c-c++\ builds\header-files\Header.h \
+ C:\Stuff\GitRep\CSV-JSON-Convertor\Source-Files\CSV_JSON.cpp \
+ c:\stuff\gitrep\csv-json-convertor\header-files\csv_json.h \
+ c:\stuff\gitrep\csv-json-convertor\header-files\Header.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -115,4 +115,4 @@ CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
- d:\college\stash\c-c++\ builds\header-files\err_codes.h
+ c:\stuff\gitrep\csv-json-convertor\header-files\err_codes.h

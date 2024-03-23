@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\College\stash\C-C++ Builds"
+CMAKE_SOURCE_DIR = C:\Stuff\GitRep\CSV-JSON-Convertor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\College\stash\C-C++ Builds"
+CMAKE_BINARY_DIR = C:\Stuff\GitRep\CSV-JSON-Convertor
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Main.dir/depend.make
@@ -71,30 +71,30 @@ include CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj: Source-Files/CSV_JSON.cpp
 CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj: CMakeFiles/Main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\College\stash\C-C++ Builds\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj -MF CMakeFiles\Main.dir\Source-Files\CSV_JSON.cpp.obj.d -o CMakeFiles\Main.dir\Source-Files\CSV_JSON.cpp.obj -c "D:\College\stash\C-C++ Builds\Source-Files\CSV_JSON.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\GitRep\CSV-JSON-Convertor\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.obj -MF CMakeFiles\Main.dir\Source-Files\CSV_JSON.cpp.obj.d -o CMakeFiles\Main.dir\Source-Files\CSV_JSON.cpp.obj -c C:\Stuff\GitRep\CSV-JSON-Convertor\Source-Files\CSV_JSON.cpp
 
 CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\College\stash\C-C++ Builds\Source-Files\CSV_JSON.cpp" > CMakeFiles\Main.dir\Source-Files\CSV_JSON.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\GitRep\CSV-JSON-Convertor\Source-Files\CSV_JSON.cpp > CMakeFiles\Main.dir\Source-Files\CSV_JSON.cpp.i
 
 CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Main.dir/Source-Files/CSV_JSON.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\College\stash\C-C++ Builds\Source-Files\CSV_JSON.cpp" -o CMakeFiles\Main.dir\Source-Files\CSV_JSON.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\GitRep\CSV-JSON-Convertor\Source-Files\CSV_JSON.cpp -o CMakeFiles\Main.dir\Source-Files\CSV_JSON.cpp.s
 
 CMakeFiles/Main.dir/Source-Files/main.cpp.obj: CMakeFiles/Main.dir/flags.make
 CMakeFiles/Main.dir/Source-Files/main.cpp.obj: Source-Files/main.cpp
 CMakeFiles/Main.dir/Source-Files/main.cpp.obj: CMakeFiles/Main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\College\stash\C-C++ Builds\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Main.dir/Source-Files/main.cpp.obj"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Main.dir/Source-Files/main.cpp.obj -MF CMakeFiles\Main.dir\Source-Files\main.cpp.obj.d -o CMakeFiles\Main.dir\Source-Files\main.cpp.obj -c "D:\College\stash\C-C++ Builds\Source-Files\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Stuff\GitRep\CSV-JSON-Convertor\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Main.dir/Source-Files/main.cpp.obj"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Main.dir/Source-Files/main.cpp.obj -MF CMakeFiles\Main.dir\Source-Files\main.cpp.obj.d -o CMakeFiles\Main.dir\Source-Files\main.cpp.obj -c C:\Stuff\GitRep\CSV-JSON-Convertor\Source-Files\main.cpp
 
 CMakeFiles/Main.dir/Source-Files/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Main.dir/Source-Files/main.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\College\stash\C-C++ Builds\Source-Files\main.cpp" > CMakeFiles\Main.dir\Source-Files\main.cpp.i
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Stuff\GitRep\CSV-JSON-Convertor\Source-Files\main.cpp > CMakeFiles\Main.dir\Source-Files\main.cpp.i
 
 CMakeFiles/Main.dir/Source-Files/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Main.dir/Source-Files/main.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\College\stash\C-C++ Builds\Source-Files\main.cpp" -o CMakeFiles\Main.dir\Source-Files\main.cpp.s
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Stuff\GitRep\CSV-JSON-Convertor\Source-Files\main.cpp -o CMakeFiles\Main.dir\Source-Files\main.cpp.s
 
 # Object files for target Main
 Main_OBJECTS = \
@@ -110,7 +110,7 @@ Output/Main.exe: CMakeFiles/Main.dir/build.make
 Output/Main.exe: CMakeFiles/Main.dir/linkLibs.rsp
 Output/Main.exe: CMakeFiles/Main.dir/objects1.rsp
 Output/Main.exe: CMakeFiles/Main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\College\stash\C-C++ Builds\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Output\Main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Stuff\GitRep\CSV-JSON-Convertor\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Output\Main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/Main.dir/clean:
 .PHONY : CMakeFiles/Main.dir/clean
 
 CMakeFiles/Main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\College\stash\C-C++ Builds" "D:\College\stash\C-C++ Builds" "D:\College\stash\C-C++ Builds" "D:\College\stash\C-C++ Builds" "D:\College\stash\C-C++ Builds\CMakeFiles\Main.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Stuff\GitRep\CSV-JSON-Convertor C:\Stuff\GitRep\CSV-JSON-Convertor C:\Stuff\GitRep\CSV-JSON-Convertor C:\Stuff\GitRep\CSV-JSON-Convertor C:\Stuff\GitRep\CSV-JSON-Convertor\CMakeFiles\Main.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Main.dir/depend
 
