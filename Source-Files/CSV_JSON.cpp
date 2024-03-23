@@ -1,6 +1,35 @@
 #include "../Header-Files/CSV_JSON.h"
 #include "../Header-Files/Err_Codes.h"
 
+CSV_JSON::CSV_JSON() {
+    csv_file_path = "";
+    json_file_path = "";
+}
+
+CSV_JSON::CSV_JSON(const std::string& csv_path, const std::string& json_path, useMode mode) {
+    this->csv_file_path = csv_path;
+    this->json_file_path = json_path;
+
+    switch ((int)mode) {
+    case 0:
+        //Mode 0 : CSV -> JSON
+        file_writer.open(json_file_path);
+        file_reader.open(csv_file_path);
+        break;
+
+    case 1:
+        //Mode 1 : JSON -> CSV
+        file_writer.open(csv_file_path);
+        file_reader.open(json_file_path);
+        break;
+    }
+}
+
+CSV_JSON::~CSV_JSON() {
+    file_writer.close();
+    file_reader.close();
+}
+
 vector<string> CSV_JSON::CSV_Attributes() {
     vector<string> Attributes;
 
