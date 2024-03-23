@@ -1,4 +1,6 @@
 #pragma once
+#ifndef CSV_HEADER
+#define CSV_HEADER
 
 #include "Header.h"
 
@@ -13,33 +15,13 @@ private:
 
 
 public:
-    CSV_JSON() {
-        csv_file_path = "";
-        json_file_path = "";
-    }
+    CSV_JSON();
 
-    CSV_JSON(const std::string& csv_path, const std::string& json_path, useMode mode) : csv_file_path(csv_path), json_file_path(json_path) {
-        switch ((int)mode) {
-        case 0:
-            //Mode 0 : CSV -> JSON
-            file_writer.open(json_file_path);
-            file_reader.open(csv_file_path);
-            break;
+    CSV_JSON(const std::string&, const std::string&, useMode);
 
-        case 1:
-            //Mode 1 : JSON -> CSV
-            file_writer.open(csv_file_path);
-            file_reader.open(json_file_path);
-            break;
-        }
-    }
+    ~CSV_JSON();
 
-    ~CSV_JSON() {
-        file_writer.close();
-        file_reader.close();
-    }
-
-    void changeMode(useMode mode);
+    void changeMode(useMode);
 
     vector<string> CSV_Attributes();
 
@@ -47,3 +29,5 @@ public:
 
     void check_JSON();
 };
+
+#endif
