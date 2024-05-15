@@ -1,5 +1,3 @@
-# Install script for directory: C:/Stuff/GitRep/CSV-JSON-Convertor
-
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CSV-JSON-Converter")
